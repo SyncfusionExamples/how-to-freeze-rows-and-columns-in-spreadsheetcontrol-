@@ -1,0 +1,15 @@
+﻿<chart:RibbonWindow
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    chart:SkinStorage.VisualStyle="Office2013"
+        xmlns:local="clr-namespace:FreezeRowColumnDemo"
+        xmlns:chart="http://schemas.syncfusion.com/wpf" x:Class="FreezeRowColumnDemo.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <chart:SfSpreadsheetRibbon HorizontalAlignment="Left" Margin="10,33,0,0" VerticalAlignment="Top"/>
+        <chart:SfSpreadsheet x:Name="spreadSheetControl" HorizontalAlignment="Left" Margin="0,133,0,-5" VerticalAlignment="Top" />
+    </Grid>
+</chart:RibbonWindow>
